@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "rastreio",
-    "slug": "rastreio",
+    "name": "rastreiame",
+    "slug": "rastreiame",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#151515"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,11 +23,21 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#151515"
+      },
+      "package": "com.half144.rastreiame"
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#151515"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bb6a77bc-c782-4775-9a4e-3161b36beb90"
+      }
     }
   }
 }
